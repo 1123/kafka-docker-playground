@@ -1,5 +1,5 @@
 curl -X DELETE http://localhost:8083/connectors/servicenow-source
-log "Creating ServiceNow Source connector"
+echo "Creating ServiceNow Source connector"
 curl -X PUT \
      -H "Content-Type: application/json" \
      --data '{
